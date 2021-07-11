@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css style sheet-->
+    <link rel="stylesheet" href="index.css" />
+    <!--Bootstrap CSS Style Sheet-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Marcus Elliott - API Project 2</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.iqair.com/assets/logos/ic-logo-iq-air-blue.svg"
+            alt=""
+            width="131"
+            height="42"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+    <section class="py-5 text-center container">
+        <div class="row py-lg-3">
+          <div class="mx-auto">
+            <h1 class="fw-light">Marcus Elliott - API Project</h1>
+            <p class="lead">
+              Hello this is my AirVisual API project. Here the application goes out and automatically fetches the user's local weather information and displays it on the page. However if the user wants to be able to check how the weather is somewhere else they can go to the next section and type out a city and state and it will send fetch a city and state that match.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="card-group col-lg-5 col-md-8 mx-auto" id="card-group">
+        <!--User Location Data and Weather IMG INSERTED HERE-->
+      </div>
+      <h1 id="stats">Your Local Weather Stats</h1>
+      <div class="d-flex justify-content-between align-items-center mt-4 px-4" id="stat-sec">
+        <div class="stats">
+            <h6 class="mb-0">Humidity</h6><span id="hu"></span>
+        </div>
+        <div class="stats">
+            <h6 class="mb-0">temp</h6><span id="temp"></span>
+        </div>
+        <div class="stats">
+          <h6 class="mb-0">Wind Speed</h6><span id="wind-speed"></span>
+      </div>
+        <div class="stats">
+            <h6 class="mb-0">Atmospheric Preassure</h6>
+            <span id="ap"></span>
+        </div>
+      </div>
+      <hr>
+
+      <h1 id="weather-search">USA - City Weather Status Search</h1>
+      <section id="form-sec">
+        <form>
+          <div class="mb-3">
+            <label for="cityField" class="form-label">City: </label>
+            <input type="text" id="cityField">
+          </div>
+          <div class="mb-3">
+            <label for="stateField" class="form-label">State: </label>
+            <input type="text" id="stateField">
+          </div>
+          <button type="button" class="btn btn-primary" id="fetch-btn">Fetch</button>
+        </form>
+      </section>
+
+      <div class="card-group col-lg-5 col-md-8 mx-auto" id="card-group2">
+        <!--User Search Data and Weather IMG INSERTED HERE-->
+      </div>
+
+    </div>
+    <script src="./index.js"></script>
+    <!--Bootstrap 5 JS Bundle Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

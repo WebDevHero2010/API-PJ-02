@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+h5 {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#card1-img {
+    border: black solid 2px;
+    border-radius: 2rem;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+card {
+    max-width:470.5px;
+}
+
+#card2-img {
+    border: black solid 2px;
+    border-radius: 2rem;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+p {
+    padding-top: .5%;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+}
+
+#stats {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#weather-search {
+    display: flex;
+    justify-content: center;
+}
+
+#form-sec {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
