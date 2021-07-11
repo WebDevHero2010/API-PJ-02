@@ -1,5 +1,5 @@
-const baseURL = `http://api.airvisual.com/v2/nearest_city`;
-const baseURL2 = `http://api.airvisual.com/v2/city?`;
+const baseURL = `https://api.airvisual.com/v2/nearest_city`;
+const baseURL2 = `https://api.airvisual.com/v2/city?`;
 const apiKey = `c6bada67-6583-4220-84aa-701342c2bcc2`;
 
 let fetchBtn = document.getElementById("fetch-btn");
